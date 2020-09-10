@@ -18,7 +18,7 @@ print("menor valor é:", menor)
 
 #calcular valor media pela soma e contagem de elementos
 media= sum(temperaturas)/ len(temperaturas)
-print("temperatura média: %.2f" % (media)
+print("temperatura média: %.3f" % (media))
 
 #colooca a lista em ordem
 temperaturas.sort()
@@ -29,3 +29,4 @@ print(temperaturas)
 temperaturas.sort(reverse=True)
 print("ordenasção decrescente")
 print(temperaturas)
+
